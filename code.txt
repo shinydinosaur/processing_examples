@@ -9,8 +9,8 @@ int w = 500;
 int ball_x = 100;
 int ball_y = 100;
 int ball_r = 20;
-int ball_speed_x = 1;
-int ball_speed_y = 1;
+int ball_speed_x = 3;
+int ball_speed_y = 3;
 
 color ball_color = #ff0000;
 color bg_color = #000000;
