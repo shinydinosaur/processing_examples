@@ -3,8 +3,8 @@
 A ball that bounces around
 */
 
-int h = 200;
-int w = 200;
+int h = 300;
+int w = 500;
 
 int ball_x = 100;
 int ball_y = 100;
