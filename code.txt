@@ -16,7 +16,7 @@ color ball_color = #ff0000;
 color bg_color = #000000;
 
 void setup() {
-  size(h,w);
+  size(w,h);
   frameRate(30);
 }
 
