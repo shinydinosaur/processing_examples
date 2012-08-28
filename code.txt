@@ -1,1 +1,25 @@
 // Valkyrie_formative
+/**
+A ball that bounces around
+*/
+
+int h = 200;
+int w = 200;
+
+void setup() {
+  size(h,w);
+  frameRate(30);
+}
+
+void draw() {
+  move_ball();
+  draw_ball();  
+}
+
+void move_ball()  {
+ // we want to move the ball 
+}
+
+void draw_ball() {
+  // we want to draw the ball
+}
