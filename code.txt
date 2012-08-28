@@ -25,7 +25,8 @@ void draw() {
 }
 
 void refresh() {
-  // color over the whole scene 
+  fill(bg_color);
+  rect(0, 0, w, h); 
 }
 
 void move_ball()  {
@@ -33,5 +34,6 @@ void move_ball()  {
 }
 
 void draw_ball() {
-  // we want to draw the ball
+  fill(ball_color);
+  ellipse(ball_x, ball_y, ball_r, ball_r);
 }
